@@ -1,0 +1,78 @@
+@charset "UTF-8";
+html, body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: "微軟正黑體";
+}
+html .main, body .main {
+  font-size: 30px;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+html .main .top, body .main .top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  flex: 3;
+}
+html .main .top .qf, body .main .top .qf {
+  border: 1px solid #000;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+html .main .top .qf .ques, body .main .top .qf .ques {
+  font-size: 36px;
+}
+html .main .bot, body .main .bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: coloumn;
+  width: 100%;
+  flex: 7;
+}
+html .main .bot .ans, body .main .bot .ans {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #000;
+}
+html .main .bot .ans .a1, body .main .bot .ans .a1 {
+  border: 1px solid #000;
+  width: 80%;
+  padding: 15px 0;
+}
+html .main .bot .ans .a2, body .main .bot .ans .a2 {
+  border: 1px solid #000;
+  width: 80%;
+  padding: 15px 0;
+}
+html .main .bot .ans .a3, body .main .bot .ans .a3 {
+  border: 1px solid #000;
+  width: 80%;
+  padding: 15px 0;
+}

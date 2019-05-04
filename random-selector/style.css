@@ -1,0 +1,95 @@
+@charset "UTF-8";
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "微軟正黑體";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.7);
+  border: 3px solid #000;
+  border-radius: 5%;
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
+.main .bot {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .bot .left {
+  border-right: 3px solid #000;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  flex: 3;
+}
+.main .bot .left ul {
+  padding: 0;
+}
+.main .bot .left ul li {
+  margin: 5px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.main .bot .left ul li.highlight {
+  transition: 0.5s;
+  color: red;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 3px solid red;
+}
+.main .bot .right {
+  width: 100%;
+  height: 100%;
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main .bot .right .top#resDiv {
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #000;
+}
+.main .bot .right .top#resDiv h2 {
+  font-size: 60px;
+}
+.main .bot .right .bot {
+  width: 100%;
+  height: 100%;
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+.main .bot .right .bot .top#img {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  flex: 8;
+  opacity: 0;
+}
+.main .bot .right .bot .bot {
+  width: 100%;
+  height: 100%;
+  flex: 2;
+  border-top: 3px solid #000;
+}
+.main .bot .right .bot .bot button#gene {
+  font-size: 24px;
+}
