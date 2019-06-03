@@ -13,9 +13,9 @@ $(document).ready(function() {
         table.append("<td>"+(i+1)+"</td>");
         table.append("<td>"+(new Date(startDate.getTime()+i*7*dayUnit)).toLocaleDateString().slice(5)+"</td>");
         if (d === "不上課")
-            table.append('<td><span style="color: #888">'+ d +'</span></td>');
+            table.append('<td><span style="color: #BABABA">'+ d +'</span></td>');
         else
-            table.append("<td>"+ d +"</td>");
+            table.append('<td><span style="font-weight: bold">'+ d +'</span></td>');
         table.append("</tr>");
         
     })

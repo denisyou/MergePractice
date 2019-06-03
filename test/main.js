@@ -21,6 +21,7 @@ $(document).ready(function() {
       $(".ans").css("border", "none");
       $(".a3").css("border", "none");
       $(".qf").css("width", "72%");
+      $(".qf").css("height", "72%");
     }
 
 

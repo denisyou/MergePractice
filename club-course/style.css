@@ -6,11 +6,12 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 125px;
 }
 
 .main {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   border: 2px solid #000;
   border-radius: 10%;
   padding: 0;

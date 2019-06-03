@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 html, body {
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 125px;
 }
 
 .main {

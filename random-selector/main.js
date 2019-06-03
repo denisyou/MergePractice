@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let option = ['拉麵', '滷肉飯', '水餃'];
-    let imgUrl= ["http://www.tabirai.net/tabirai-uploader/img/0026103/s1_0026103.jpg","https://www.cythia0805.com/wp-content/uploads/2014/10/DSC_02071.jpg","http://www.8way.asia/images/b_pork.gif"]
+    let imgUrl= ["random-selector/images/s1_0026103.jpg","random-selector/images/DSC_02071.jpg","random-selector/images/b_pork.gif"]
     let menu = $('#menu');
     option.forEach(function(d, i) {
       menu.append("<li>"+d+"</li>");

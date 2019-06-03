@@ -13,6 +13,7 @@ html, body {
   align-items: center;
   flex-direction: row;
   font-family: "微軟正黑體";
+  padding-top: 125px;
 }
 html .main, body .main {
   font-size: 30px;
@@ -41,7 +42,7 @@ html .main .top .qf, body .main .top .qf {
   flex-direction: row;
 }
 html .main .top .qf .ques, body .main .top .qf .ques {
-  font-size: 36px;
+  font-size: 32px;
 }
 html .main .bot, body .main .bot {
   display: flex;
